@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+
 import ghs from "./company/ghs.svg";
 
 import akira from "./company/akira.svg";
@@ -53,7 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   ghs,
   akira,
   cognizant,
