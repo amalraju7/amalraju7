@@ -27,10 +27,10 @@ import {
   akira,
   cognizant,
   ghs,
-  carrent,
-  jobit,
+  cli,
   tripguide,
   threejs,
+  ai,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -198,10 +198,10 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "CLI - Code Editor With TypeScript",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "This project is a browser-based platform designed to provide a user-friendly space for writing, executing, and experimenting with React Typescript code directly in your browser.",
+        tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -215,16 +215,15 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: cli,
+    sourceCodeLink: "https://github.com/amalraju7/CLI",
   },
   {
-    name: "Job IT",
+    name: "AI Powered Twitter Bio Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "Utilizing cutting-edge AI technology, this tool crafts personalized, engaging, and creative Twitter bios in seconds. Tailored to reflect unique styles and interests, it helps users stand out and connect with their audience effortlessly.",    tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -236,7 +235,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ai,
     sourceCodeLink: "https://github.com/",
   },
   {

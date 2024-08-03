@@ -26,9 +26,10 @@ import ghs from "./company/ghs.svg";
 
 import akira from "./company/akira.svg";
 import cognizant from "./company/cognizant.svg"
+import cli from "./cli.mp4"
+import ai from "./AI.mp4"
+import fullscreen from './tech/fullscreen.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +57,8 @@ export {
   ghs,
   akira,
   cognizant,
-  carrent,
-  jobit,
+  ai,
   tripguide,
+  cli,
+  fullscreen,
 };
