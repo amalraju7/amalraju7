@@ -28,7 +28,6 @@ import {
   cognizant,
   ghs,
   cli,
-  tripguide,
   threejs,
   ai,
   studio,
