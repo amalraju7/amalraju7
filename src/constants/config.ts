@@ -35,6 +35,7 @@ type TConfig = {
     experience: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
+    professional_works:Required<TSection>;
   };
 };
 
@@ -83,12 +84,18 @@ export const config: TConfig = {
     },
     works: {
       p: "My work",
-      h2: "Projects.",
+      h2: " Relevant Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
     links to code repositories and live demos in it. It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
+    },
+    professional_works: {
+      p: "",
+      h2: "Professional Projects.",
+      content: `These professional projects showcase my skills and experience through real-world applications of my work. Each project includes a brief description along with links to code repositories and live demos. They illustrate my proficiency in solving complex challenges, utilizing various technologies, and managing projects effectively.
+      `,
     },
   },
 };

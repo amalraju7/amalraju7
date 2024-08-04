@@ -28,6 +28,12 @@ import akira from "./company/akira.svg";
 import cognizant from "./company/cognizant.svg"
 import cli from "./cli.mp4"
 import ai from "./AI.mp4"
+import studio from "./studio.mp4"
+import hectare from "./hectare.mp4"
+import akirav from "./akira.mp4"
+import ghsv from "./ghs.mp4"
+import prime from "./prime.mp4"
+import game from "./game.mp4"
 import fullscreen from './tech/fullscreen.png'
 
 import tripguide from "./tripguide.png";
@@ -56,9 +62,15 @@ export {
   threejs,
   ghs,
   akira,
+  prime,
   cognizant,
   ai,
   tripguide,
   cli,
   fullscreen,
+  studio,
+  game,
+  hectare,
+  akirav,
+  ghsv,
 };
