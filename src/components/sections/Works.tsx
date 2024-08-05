@@ -64,7 +64,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
               </div>
     
             </div>
-            {sourceCodeLink != "" ? ( <div className="card-img_hover absolute inset-0 right-2 m-3 flex justify-end">
+            {sourceCodeLink != "" ? ( <div className="card-img_hover absolute inset-0 top-1 right-2 m-3 flex justify-end">
               <div
                 onClick={() => window.open(sourceCodeLink, "_blank")}
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
@@ -160,4 +160,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
